@@ -3,5 +3,6 @@ An assignment from odin project to improve my committing skill and review base o
 https://www.theodinproject.com/lessons/foundations-recipes
 
 reflection:
-*sometimes forgot to present tence for commit messages
+8/19: sometimes forgot to present tence for commit messages
+8/21: 
 
