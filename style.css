@@ -10,5 +10,12 @@ body {
 }
 h1 {
     width: fit-content;
+    margin: 20px auto;
+}
+.headerImg {
+    display: block;
+    width: 90%;
+    height: 45%;
     margin: 0 auto;
+    object-fit: cover;
 }
