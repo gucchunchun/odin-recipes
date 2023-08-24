@@ -12,6 +12,37 @@ h1 {
     width: fit-content;
     margin: 2rem auto;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header input {
+    width: 10rem;
+    height: 2rem;
+}
+header button {
+    width: 2rem;
+    height: 2rem;
+    background-image: url('./img/magnifier.png');
+    background-size: cover;
+}
+main {
+    padding-top: 110px;
+}
 .headerImg {
     display: block;
     width: 90%;
