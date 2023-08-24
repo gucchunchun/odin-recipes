@@ -7,31 +7,30 @@
 body {
     width: 100vw;
     font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h1 {
-    width: fit-content;
-    margin: 2rem auto;
-}
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 110px;
-    padding: 0 1rem;
+    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header h1 {
-    margin: 0;
-}
+
 header div {
+    width: 30%;
     display: flex;
     align-items: center;
 }
 header input {
-    width: 10rem;
+    width: calc(100% - 2rem);
     height: 2rem;
 }
 header button {
@@ -40,13 +39,47 @@ header button {
     background-image: url('./img/magnifier.png');
     background-size: cover;
 }
-main {
-    padding-top: 110px;
-}
 .headerImg {
     display: block;
     width: 90%;
     height: 45%;
     margin: 0 auto;
+    object-fit: cover;
+}
+main {
+    margin-top: 120px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    width: 100%;
+    text-align: center;
+}
+.recipe-container {
+    position: relative;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+.recipe {
+    width: calc(100% / 3);
+    height: auto;
+    aspect-ratio: 1/1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 auto;
+}
+.recipe img {
+    width: 80%;
+    aspect-ratio: 4/3;
     object-fit: cover;
 }
